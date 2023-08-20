@@ -1,17 +1,11 @@
-import { useState } from 'react'
+import React from 'react'
+import Homeone from './components/banner/homeone'
 
-
-
-function App() {
-  
-  
+const App = () => {
   return (
-    <>
-      <div>
-       <h2>WelCome To React Project</h2>
-      </div>
-      
-    </>
+    <div>
+      <Homeone/>
+    </div>
   )
 }
 
