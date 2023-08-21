@@ -13,8 +13,7 @@ const Homeone = () => {
             <div class="col-12">
               <div class="hero-content">
                 <h1>
-                  Our Agency's Vision for the <br />Next Generation of <br />
-                  Advertising
+                  Our Agency's Vision for the <br />Next Generation of <br />Advertising
                 </h1>
                 <div class="hero-video-image">
                   <div class="hero-video-main">
