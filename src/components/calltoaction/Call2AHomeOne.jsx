@@ -1,14 +1,18 @@
 import React from 'react'
+import BgImages from '../../assets/images/call-action/bg-image.png'
+
+import ShapeOne from '../../assets/images/call-action/shape-1.svg'
+import ShapeTwo from '../../assets/images/call-action/shape-2.svg'
 
 const Call2AHomeOne = () => {
   return (
     <div>
         <section class="call-action-area">
           <div class="call-action-bg-image">
-            <img class="thumbnail-image" src="./assets/images/call-action/bg-image.png" alt="#"/>
+            <img class="thumbnail-image" src={BgImages}/>
           </div>
           <div class="call-action-shape shape-1">
-            <img src="./assets/images/call-action/shape-1.svg" alt="#" />
+            <img src={ShapeOne} alt="#" />
           </div>
           <div class="container">
             <div class="row justify-content-center">
@@ -30,7 +34,7 @@ const Call2AHomeOne = () => {
             </div>
           </div>
           <div class="call-action-shape shape-2">
-            <img src="./assets/images/call-action/shape-2.svg" alt="#" />
+            <img src={ShapeTwo} alt="#" />
           </div>
       </section>
       </div>

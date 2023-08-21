@@ -1,4 +1,12 @@
 import React from 'react'
+import shapeone from '../../assets/images/services/shape-1.svg';
+import shapetwo from '../../assets/images/services/shape-2.svg';
+import shapethree from '../../assets/images/services/shape-3.svg';
+
+import IconOne from '../../assets/images/services/icon-1.svg';
+import IconTwo from '../../assets/images/services/icon-2.svg';
+import IconThree from '../../assets/images/services/icon-3.svg';
+import IconFour from '../../assets/images/services/icon-4.svg';
 
 const ServiceHomeOne = () => {
   return (
@@ -6,9 +14,9 @@ const ServiceHomeOne = () => {
       
     <section class="service-area">
       <div class="service-section-shape">
-        <img class="shape shape-1" src="./assets/images/services/shape-1.svg" alt="#"/>
-        <img class="shape shape-2" src="./assets/images/services/shape-2.svg" alt="#" />
-        <img class="shape shape-3" src="./assets/images/services/shape-3.svg" alt="#"/>
+        <img class="shape shape-1" src={shapeone} alt="#"/>
+        <img class="shape shape-2" src={shapetwo} alt="#" />
+        <img class="shape shape-3" src={shapethree} alt="#"/>
       </div>
       <div class="container">
         <div class="row justify-content-center">
@@ -25,7 +33,7 @@ const ServiceHomeOne = () => {
           <div class="col-lg-6 col-md-6 col-12 wow fadeInUp">
             <div class="service-card">
               <div class="service-card-icon">
-                <img src="./assets/images/services/icon-1.svg" alt="#" />
+                <img src={IconOne} alt="#" />
               </div>
               <div class="service-card-content">
                 <h4 class="service-card-title">Web Development</h4>
@@ -45,7 +53,7 @@ const ServiceHomeOne = () => {
           <div class="col-lg-6 col-md-6 col-12 wow fadeInUp">
             <div class="service-card">
               <div class="service-card-icon">
-                <img src="./assets/images/services/icon-2.svg" alt="#" />
+                <img src={IconTwo} alt="#" />
               </div>
               <div class="service-card-content">
                 <h4 class="service-card-title">Seo Marketing</h4>
@@ -65,7 +73,7 @@ const ServiceHomeOne = () => {
           <div class="col-lg-6 col-md-6 col-12 wow fadeInUp">
             <div class="service-card">
               <div class="service-card-icon">
-                <img src="./assets/images/services/icon-3.svg" alt="#" />
+                <img src={IconThree} alt="#" />
               </div>
               <div class="service-card-content">
                 <h4 class="service-card-title">Video Editing</h4>
@@ -85,7 +93,7 @@ const ServiceHomeOne = () => {
           <div class="col-lg-6 col-md-6 col-12 wow fadeInUp">
             <div class="service-card">
               <div class="service-card-icon">
-                <img src="./assets/images/services/icon-4.svg" alt="#" />
+                <img src={IconFour} alt="#" />
               </div>
               <div class="service-card-content">
                 <h4 class="service-card-title">Creative Agency</h4>

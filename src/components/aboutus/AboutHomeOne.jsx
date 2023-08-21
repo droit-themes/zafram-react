@@ -1,5 +1,14 @@
 import React from 'react'
 
+import ClientOne from '../../assets/images/about-us/client/client-1.png';
+import ClientTwo from '../../assets/images/about-us/client/client-2.png';
+import ClientThree from '../../assets/images/about-us/client/client-3.png';
+import ClientFour from '../../assets/images/about-us/client/client-4.png';
+import ClientMore from '../../assets/images/about-us/more-icon.svg';
+import AboutImg from '../../assets/images/about-us/about-img.png';
+import circleOne from '../../assets/images/icons/check-circle.svg';
+
+
 const AboutHomeOne = () => {
   return (
     <div>
@@ -12,25 +21,25 @@ const AboutHomeOne = () => {
                         <span>1.5k+ Clients</span>
                         <ul class="about-client-list">
                         <li>
-                            <a href="#"><img src="./assets/images/about-us/client/client-1.png" alt="#" /></a>
+                            <a href="#"><img src={ClientOne} alt="#" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="./assets/images/about-us/client/client-2.png" alt="#" /></a>
+                            <a href="#"><img src={ClientTwo} alt="#" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="./assets/images/about-us/client/client-3.png" alt="#" /></a>
+                            <a href="#"><img src={ClientThree} alt="#" /></a>
 
                         </li>
                         <li>
-                            <a href="#"><img src="./assets/images/about-us/client/client-4.png" alt="#" /></a>
+                            <a href="#"><img src={ClientFour} alt="#" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="./assets/images/about-us/more-icon.svg" alt="#" /></a>
+                            <a href="#"><img src={ClientMore} alt="#" /></a>
                         </li>
                         </ul>
                     </div>
                     <div class="about-image">
-                        <img src="./assets/images/about-us/about-img.png" alt="#" />
+                        <img src={AboutImg} alt="#" />
                     </div>
                     <div class="about-experience-card">
                         <h4>25<span>Years</span></h4>
@@ -51,17 +60,9 @@ const AboutHomeOne = () => {
                     </p>
                     <ul class="about-content-list">
                         <li>
-                        <img
-                            src="./assets/images/icons/check-circle.svg"
-                            alt="#"
-                        />The Power of Creativity Unleashed
+                        <img src={circleOne} alt="#"/>The Power of Creativity Unleashed
                         </li>
-                        <li>
-                        <img
-                            src="./assets/images/icons/check-circle.svg"
-                            alt="#"
-                        />Discover Our Agency's Story and Vision
-                        </li>
+                        <li> <img src={circleOne} alt="#"/> Discover Our Agency's Story and Vision </li>
                     </ul>
                     <div class="about-content-bottom">
                         <div class="about-cont-btm-widget">
