@@ -206,6 +206,20 @@
   }
 }
 
+.section-bg-image {
+  height: 840px;
+  background: #0b6755;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.background-image{
+  background-image: url(../images/hero-banner/banner-pattern-bg-1.svg);
+}
+
 /*============================================================================================
 	End Header Area
 ==============================================================================================*/

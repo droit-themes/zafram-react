@@ -3,7 +3,6 @@
 ==============================================================================================*/
 .section-bg-image {
   height: 840px;
-  background: var(--primary-color);
   position: absolute;
   width: 100%;
   z-index: -1;

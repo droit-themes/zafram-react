@@ -1,8 +1,12 @@
 import React from 'react'
+import BannerOne from '../../assets/images/hero-banner/banner-1.png';
+ 
+
 
 const Homeone = () => {
   return (
     <div>
+      <div className='section-bg-image background-image'></div>
       <section class="hero-area mg-top-46">
         <div class="container">
           <div class="row">
@@ -15,8 +19,8 @@ const Homeone = () => {
                 <div class="hero-video-image">
                   <div class="hero-video-main">
                     <a href="https://www.youtube.com/watch?v=gyGsPlt06bo" class="video-popup-img popup-video">
-                      {/* <img src="./assets/images/hero-banner/banner-1.png"alt="hero-banner" />
-                      <i class="icofont-ui-play"></i> */}
+                      <img src={BannerOne} alt="hero-banner" />
+                      <i class="icofont-ui-play"></i>
                     </a>
                   </div>
                 </div>
