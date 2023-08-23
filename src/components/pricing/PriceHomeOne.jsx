@@ -1,11 +1,14 @@
 import React from 'react'
+import ShapeBg from '../../assets/images/pricing/shape-bg.svg';
+import IconOne from '../../assets/images/pricing/icon-1.svg';
+import IconTwo from '../../assets/images/pricing/icon-2.svg';
 
 const PriceHomeOne = () => {
   return (
     <div>
         <section class="pricing-area">
             <div class="pricing-bg-shape">
-                <img class="thumbnail-image" src="./assets/images/pricing/shape-bg.svg" alt="#"/>
+                <img class="thumbnail-image" src={ShapeBg} alt="#"/>
             </div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -23,7 +26,7 @@ const PriceHomeOne = () => {
                     <div class="pricing-card">
                     <div class="pricing-card-info">
                         <div class="pricing-card-icon">
-                        <img src="./assets/images/pricing/icon-1.svg" alt="#" />
+                        <img src={IconOne} alt="#" />
                         </div>
                         <h4 class="pricing-info-title">Silver Plan</h4>
                         <div class="pricing-card-price">
@@ -52,7 +55,7 @@ const PriceHomeOne = () => {
                     <div class="pricing-card active">
                     <div class="pricing-card-info">
                         <div class="pricing-card-icon">
-                        <img src="./assets/images/pricing/icon-2.svg" alt="#" />
+                        <img src={IconTwo} alt="#" />
                         </div>
                         <h4 class="pricing-info-title text-white">Silver Plan</h4>
                         <div class="pricing-card-price">

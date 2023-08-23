@@ -1,4 +1,9 @@
 import React from 'react'
+import IconOne from '../../assets/images/support-highlight/icon-1.svg';
+import IconTwo from '../../assets/images/support-highlight/icon-2.svg';
+import IconThree from '../../assets/images/support-highlight/icon-3.svg';
+import WhatWeDo from '../../assets/images/what-we-do/what-we-do-img.png';
+import BgShape from '../../assets/images/what-we-do/bg-shape.svg';
 
 const WhatWeDoArea = () => {
   return (
@@ -10,10 +15,7 @@ const WhatWeDoArea = () => {
                     <div class="col-lg-4 col-md-6 col-12 wow fadeInUp">
                     <div class="support-highlight-card">
                         <div class="support-highlight-icon">
-                        <img
-                            src="./assets/images/support-highlight/icon-1.svg"
-                            alt="#"
-                        />
+                        <img src={IconOne} alt="#"/>
                         </div>
                         <div class="s-highlight-card-content">
                         <h5>Quick Response</h5>
@@ -26,10 +28,7 @@ const WhatWeDoArea = () => {
                     <div class="col-lg-4 col-md-6 col-12 wow fadeInUp">
                     <div class="support-highlight-card">
                         <div class="support-highlight-icon">
-                        <img
-                            src="./assets/images/support-highlight/icon-2.svg"
-                            alt="#"
-                        />
+                        <img src={IconTwo} alt="#"/>
                         </div>
                         <div class="s-highlight-card-content">
                         <h5>Care our Customers</h5>
@@ -42,10 +41,7 @@ const WhatWeDoArea = () => {
                     <div class="col-lg-4 col-md-6 col-12 wow fadeInUp">
                     <div class="support-highlight-card">
                         <div class="support-highlight-icon">
-                        <img
-                            src="./assets/images/support-highlight/icon-3.svg"
-                            alt="#"
-                        />
+                        <img src={IconThree} alt="#"/>
                         </div>
                         <div class="s-highlight-card-content">
                         <h5>24/7 Hours Support</h5>
@@ -109,17 +105,14 @@ const WhatWeDoArea = () => {
                     </div>
                     <div class="col-lg-6 col-12 wow fadeInRight">
                     <div class="what-we-do-img">
-                        <img
-                        src="./assets/images/what-we-do/what-we-do-img.png"
-                        alt="#"
-                        />
+                        <img src={WhatWeDo} alt="#"/>
                     </div>
                     </div>
                 </div>
                 </div>
             </div>
             <div class="what-we-do-shape-bg">
-                <img src="./assets/images/what-we-do/bg-shape.svg" alt="#" />
+                <img src={BgShape} alt="#"/>
             </div>
         </section>
     </div>
