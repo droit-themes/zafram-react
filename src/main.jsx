@@ -32,7 +32,7 @@ import './assets/plugins/css/nice-select.min.css'
 import './assets/plugins/css/owl.carousel.min.css'
 import './assets/plugins/css/uicons.css'
 
-// import './assets/plugins/js/active.js'
+ import './assets/plugins/js/active.js'
 // import './assets/plugins/js/backToTop.js'
 // // import './assets/plugins/js/bootstrap.min.js'
 // import './assets/plugins/js/cube-portfolio.min.js'
