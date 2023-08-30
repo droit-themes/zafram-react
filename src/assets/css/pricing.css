@@ -1,6 +1,10 @@
 /*============================================================================================
 	Pricing Area
 ==============================================================================================*/
+
+.call-action-area.style-3{
+  background-image: url(../images/call-action/call-action-3/bg-image.png);
+}
 .pricing-area {
   background: #fff5df;
   padding: 120px 0px;

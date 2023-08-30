@@ -1,8 +1,13 @@
 /*============================================================================================
 	Testimonial Area
 ==============================================================================================*/
+
+.testimonial-area.testimonial-style-2.pricing-page.background-image{
+  background-image: url('../images/testimonial/testimonial-2/testimonial-bg.png');
+  
+}
 .testimonial-area {
-  padding: 60px 0px 120px;
+  padding: 120px 0px 120px;
   position: relative;
   z-index: 2;
 }
@@ -115,6 +120,7 @@
 
 /* Testimonial Style-2 */
 .testimonial-style-2 {
+  margin-top: 60px;
   padding-bottom: 0;
   background-attachment: fixed;
 }

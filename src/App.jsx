@@ -6,6 +6,8 @@ import HomeTwo from "./pages/HomeTwo";
 import About from "./pages/About";
 import Faq from './pages/Faq';
 import Pricing from './pages/Pricing';
+import Team from './pages/Team';
+import Contact from './pages/Contact';
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
             <Route path="/About" element={<About/>}/>
             <Route path="/Faq" element={<Faq/>}/>
             <Route path="/Pricing" element={<Pricing/>}/>
+            <Route path="/Team" element={<Team/>}/>
+            <Route path="/Contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
     </div>
