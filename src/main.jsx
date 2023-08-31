@@ -1,6 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+
+import $ from "jquery"
+
+
 import './assets/css/about-us.css'
 import './assets/css/agency-skills.css'
 import './assets/css/blog.css'
@@ -32,21 +36,24 @@ import './assets/plugins/css/nice-select.min.css'
 import './assets/plugins/css/owl.carousel.min.css'
 import './assets/plugins/css/uicons.css'
 
- //import './assets/plugins/js/active.js'
-// import './assets/plugins/js/backToTop.js'
-// // import './assets/plugins/js/bootstrap.min.js'
-// import './assets/plugins/js/cube-portfolio.min.js'
-// import './assets/plugins/js/jquery.counterup.min.js'
-// import './assets/plugins/js/jquery.min.js'
-// import './assets/plugins/js/jquery-migrate.js'
-// import './assets/plugins/js/magnific-popup.min.js'
-// import './assets/plugins/js/modernizer.min.js'
-// import './assets/plugins/js/nice-select.min.js'
-// import './assets/plugins/js/owl.carousel.min.js'
-// import './assets/plugins/js/parallax.js'
-// import './assets/plugins/js/simpleParallax.min.js'
-// import './assets/plugins/js/waypoints.min.js'
-// import './assets/plugins/js/wow.min.js'
+
+import  './assets/plugins/js/active.js'
+import './assets/plugins/js/backToTop.js'
+import './assets/plugins/js/bootstrap.min.js'
+import './assets/plugins/js/cube-portfolio.min.js'
+import './assets/plugins/js/jquery.counterup.min.js'
+import './assets/plugins/js/jquery.min.js'
+import './assets/plugins/js/jquery-migrate.js'
+import './assets/plugins/js/magnific-popup.min.js'
+//import './assets/plugins/js/modernizer.min.js'
+import './assets/plugins/js/nice-select.min.js'
+import './assets/plugins/js/owl.carousel.min.js'
+import './assets/plugins/js/parallax.js'
+import './assets/plugins/js/simpleParallax.min.js'
+//import './assets/plugins/js/waypoints.min.js'
+//import './assets/plugins/js/wow.min.js'
+
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

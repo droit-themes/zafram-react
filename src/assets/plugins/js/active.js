@@ -490,14 +490,14 @@
   /*==============================================================================
 		Parallax Images JS
 	================================================================================*/
-  let image = document.getElementsByClassName("thumbnail-image");
-  new simpleParallax(image, {
-    scale: 1.2,
-    overflow: true,
-    orientation: "up",
-    delay: 0.6,
-    transition: "cubic-bezier(0,0,0,1)",
-  });
+  // let image = document.getElementsByClassName("thumbnail-image");
+  // new simpleParallax(image, {
+  //   scale: 1.2,
+  //   overflow: true,
+  //   orientation: "up",
+  //   delay: 0.6,
+  //   transition: "cubic-bezier(0,0,0,1)",
+  // });
 
   /*==============================================================================
 		Preloader JS
