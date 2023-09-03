@@ -9,6 +9,9 @@ import Pricing from './pages/Pricing';
 import Team from './pages/Team';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import Blog from './pages/Blog';
+import Projects from './pages/Projects';
+
 
 const App = () => {
   return (
@@ -22,7 +25,10 @@ const App = () => {
             <Route path="/Pricing" element={<Pricing/>}/>
             <Route path="/Team" element={<Team/>}/>
             <Route path="/Services" element={<Services/>}/>
+            <Route path="/Projects" element={<Projects/>}/>
+            <Route path="/Blog" element={<Blog/>}/>
             <Route path="/Contact" element={<Contact/>}/>
+
         </Routes>
       </BrowserRouter>
     </div>
