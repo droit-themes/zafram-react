@@ -1,32 +1,35 @@
 import React from 'react'
-import Homeone from '../components/banner/homeone'
-import Companyfactarea from '../components/fact-area/Companyfactarea'
-import ServiceHomeOne from '../components/services/ServiceHomeOne'
-import Strapone from '../components/marque/Strapone'
-import AboutHomeOne from '../components/aboutus/AboutHomeOne'
+import BannerHomeTwo from '../components/banner/BannerHomeTwo'
+import AboutAboutPage from '../components/aboutus/AboutAboutPage'
+import AgencySkillArea from '../components/aboutus/AgencySkillArea'
+import ServicesContent from '../components/services/ServicesContent'
 import Call2AHomeOne from '../components/calltoaction/Call2AHomeOne'
-import PortfolioHomOne from '../components/portfolio/PortfolioHomOne'
-import PriceHomeOne from '../components/pricing/PriceHomeOne'
+import WordPortfolio from '../components/portfolio/WordPortfolio'
 import ContactHomeOne from '../components/contact/ContactHomeOne'
-import WhatWeDoArea from '../components/fact-area/WhatWeDoArea'
+import FaqHomTwo from '../components/faq/FaqHomTwo'
+import TestimonialSlide from '../components/testimonials/TestimonialSlide'
+import Footer from '../components/footer/Footer'
 import BlogOne from '../components/blog/BlogOne'
+
+
 
 
 const HomeTwo = () => {
   return (
     <div>
         <h2>Home Two Page</h2>
-        <Homeone/>
-        <Companyfactarea/>
-        <ServiceHomeOne/>
-        <Strapone/>
-        <AboutHomeOne/>
+        <BannerHomeTwo/>
+        <AboutAboutPage/>
+        <AgencySkillArea/>
+        <ServicesContent/>
         <Call2AHomeOne/>
-        <PortfolioHomOne/>
-        <PriceHomeOne/>
+        <WordPortfolio/>
         <ContactHomeOne/>
-        <WhatWeDoArea/>
+        <TestimonialSlide/>
+        <FaqHomTwo/>
         <BlogOne/>
+        <Footer/>
+      
 
     </div>
   )
