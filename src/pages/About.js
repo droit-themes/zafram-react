@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from '../components/Header/Header'
 import Breadcrumbs from '../components/breadcrumbs/Breadcrumbs'
 import AboutAboutPage from '../components/aboutus/AboutAboutPage'
 import AgencySkillArea from '../components/aboutus/AgencySkillArea'
@@ -9,6 +10,7 @@ import TestimonialSlide from '../components/testimonials/TestimonialSlide'
 const About = () => {
   return (
     <div>
+        <Header/>
         <Breadcrumbs/>
         <AboutAboutPage/>
         <AgencySkillArea/>
