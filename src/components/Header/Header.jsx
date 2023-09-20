@@ -2,6 +2,8 @@ import React from 'react'
 import SiteLogo from '../../assets/images/logo-3.svg'
 import UserFlax from '../../assets/images/usa-flag.png'
 
+import { NavLink } from 'react-router-dom'
+
 const Header = () => {
   return (
     <>
@@ -52,72 +54,78 @@ const Header = () => {
                 <nav class="navigation">
                   <ul class="header-menu-list style-2">
                     <li class="active">
-                      <a href="index.html">Home</a>
+                        <NavLink to="/">Home</NavLink> 
                       <ul class="sub-menu">
                         <li>
-                          <a href="index.html">Home One</a>
+                          <NavLink to="/">Home</NavLink> 
                         </li>
                         <li class="active">
-                          <a href="index-2.html">Home Two</a>
-                        </li>
-                        <li><a href="index-3.html">Home Three</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="projects.html">Projects</a>
-                      <ul class="sub-menu">
-                        <li>
-                          <a href="projects.html">Portfolio One</a>
+                            <NavLink to="/HomeTwo">Home Two</NavLink> 
                         </li>
                         <li>
-                          <a href="projects-2.html">Portfolio Two</a>
-                        </li>
-                        <li>
-                          <a href="project-details.html">Portfolio Details</a>
+                        <NavLink to="/HomeThree">Home Three</NavLink>   
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="services.html">Services</a>
+                      <NavLink to="/">Portfolio</NavLink> 
                       <ul class="sub-menu">
                         <li>
-                          <a href="services.html">Services</a>
+                          <NavLink to="/Projects">Portfolio One</NavLink> 
                         </li>
                         <li>
-                          <a href="service-details.html">Service Details</a>
+                          <NavLink to="/Projects">Portfolio Two</NavLink> 
+                        </li>
+                        <li>
+                        <NavLink to="/ProjectDetails">Portfolio Details</NavLink> 
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="standard-blog.html">Blog</a>
+                      <a href="#">Services</a>
                       <ul class="sub-menu">
                         <li>
-                          <a href="standard-blog.html">Standard Blog</a>
+                          <NavLink to="/Services">Our Services</NavLink> 
                         </li>
                         <li>
-                          <a href="blog-details.html">Blog Details</a>
+                          <NavLink to="/ServicesDetails">Services Details</NavLink> 
                         </li>
                       </ul>
                     </li>
-                    <li><a href="about.html">About</a></li>
+                    <li>
+                      <a href="#">Blog</a>
+                      <ul class="sub-menu">
+                        <li>
+                          <NavLink to="/Blog">Blog Pages</NavLink> 
+                        </li>
+                        <li>
+                          <NavLink to="/BlogDetails">Blog Details</NavLink> 
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                    <NavLink to="/About">About Us</NavLink> 
+                    </li>
                     <li>
                       <a href="#">Pages</a>
                       <ul class="sub-menu">
                         <li>
-                          <a href="team.html">Team</a>
+                          <NavLink to="/Team">Our Team</NavLink> 
                         </li>
                         <li>
-                          <a href="team-details.html">Team Details</a>
+                        <NavLink to="/Team">Team Details</NavLink> 
                         </li>
                         <li>
-                          <a href="pricing.html">Pricing</a>
+                        <NavLink to="/Pricing">Pricing Plan</NavLink> 
                         </li>
                         <li>
-                          <a href="faq.html">Faq</a>
+                        <NavLink to="/Faq">FAQ</NavLink> 
                         </li>
                       </ul>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                    <NavLink to="/Contact">Contact Us</NavLink> 
+                    </li>
                   </ul>
                 </nav>
               </div>

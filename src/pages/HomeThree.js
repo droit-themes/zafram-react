@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from '../components/Header/Header'
 import BannerHomeThree from '../components/banner/BannerHomeThree'
 import ServiceSlider from '../components/services/ServiceSlider'
 import AboutStyleThree from '../components/aboutus/AboutStyleThree'
@@ -16,7 +17,7 @@ import Footer from '../components/footer/Footer'
 const HomeThree = () => {
   return (
     <div>
-        <h2>Home Two Page</h2>
+        <Header/>
         <BannerHomeThree/>
         <ServiceSlider/>
         <AboutStyleThree/>

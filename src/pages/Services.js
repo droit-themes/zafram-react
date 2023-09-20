@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Header from '../components/Header/Header'
 import Breadcrumbs from '../components/breadcrumbs/Breadcrumbs';
 import Footer from '../components/footer/Footer';
 import ServicesContent from '../components/services/ServicesContent';
@@ -10,6 +11,7 @@ import WhatWeDoArea from '../components/fact-area/WhatWeDoArea'
 const Services = () => {
   return (
     <div>
+        <Header/>
         <Breadcrumbs/>
         <ServicesContent/>
         <PricingContent/>

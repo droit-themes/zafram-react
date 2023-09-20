@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from '../components/Header/Header'
 import BannerHomeTwo from '../components/banner/BannerHomeTwo'
 import AboutAboutPage from '../components/aboutus/AboutAboutPage'
 import AgencySkillArea from '../components/aboutus/AgencySkillArea'
@@ -17,7 +18,7 @@ import BlogOne from '../components/blog/BlogOne'
 const HomeTwo = () => {
   return (
     <div>
-        <h2>Home Two Page</h2>
+        <Header/>
         <BannerHomeTwo/>
         <AboutAboutPage/>
         <AgencySkillArea/>
